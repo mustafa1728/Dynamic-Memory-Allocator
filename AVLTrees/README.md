@@ -1,6 +1,6 @@
-# Assignment 3
+# AVL Tree
 
-This is the submission of Assignment 3 for the course COL106 by Mustafa Chasmai, Entry No. 2019CS10341
+Using AVL Trees to implement the dictionary in the allocator.
 
 ### AVLTree
 
@@ -26,7 +26,7 @@ Works in O(h) = O(log n) time.
 
 ### A3.2
 
-As discussed in Assignment 2, the worst case running time complexities are:
+As discussed in linked lists, the worst case running time complexities are:
 (Note: in BST, h = O(n))
 1. Insert: O(h) = O(n)
 2. Delete: O(h) = O(n)
@@ -38,7 +38,7 @@ As discussed in Assignment 2, the worst case running time complexities are:
 
 ### A3.3
 
-As discussed in Assignment 2, the worst case running time complexities are:
+As discussed in linked lists, the worst case running time complexities are:
 (Note: in AVL trees, because of the height balancing, h = O(log n))
 1. Insert: O(h) = O(log n)
 2. Delete: O(h) = O(log n)

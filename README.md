@@ -2,6 +2,8 @@
 
 A java based project simulating a Dynamic Memory Allocator. Included allocate, free and de-fragment functions, modelling different processes involved in the actual allocator.
 
+Part of this was an assignment for the course COL106: Data Structures and Algorithms, first semester 20-21, under Prof. Rahul Garg.
+
 
 ## Introduction
 The allocator will be having information about the memory spaces that would be currently occupied by other programs and the memory spaces that are currently available, so that whenever a program asks for memory only the memory block that is marked free (or currently available) will be given to that program. Now whenever a free memory block is given to a program then it is marked as occupied (or allocated) so other programs can not access it. Whenever the program finishes its execution, the concerned memory block should be made available again (or freed).

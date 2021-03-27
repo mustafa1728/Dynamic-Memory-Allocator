@@ -1,6 +1,6 @@
-# Assignment 1
+# Linked Lists
 
-This is the submission of Assignment 1 for the course COL106 by Mustafa Chasmai, Entry No. 2019CS10341
+Using linked lists to implement the dictionary in the allocator.
 
 ### A1List
 

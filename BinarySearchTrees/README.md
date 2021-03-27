@@ -1,6 +1,7 @@
-# Assignment 2
+# Binary Search Tree
 
-This is the submission of Assignment 2 for the course COL106 by Mustafa Chasmai, Entry No. 2019CS10341
+Using Binary Search Trees to implement the dictionary in the allocator.
+
 
 ### BSTree
 
