@@ -16,6 +16,10 @@ A simple boolean is used to switch between these
 
 After some time, the memory gets fragmented into smaller sized free blocks and these blocks cannot be reallocated even though the required contiguous free memory is available. In this case, fragmented memory is more likely to remain unused and thus it will lead to wastage to space. This problem is called Fragmentation.
 
+<p align="center">
+  <img src="images/fragmentation.png" width="500"/>
+</p>
+
 ### Defragmentor
 
 To solve the problem of fragmentation, a defragmentor is usually used after some number of executions. A defragmentor checks for free blocks that are next to each other and combines them into larger free blocks. Running a defragmentor periodically reduces the fragmentation of memory and avoids space wastage.
