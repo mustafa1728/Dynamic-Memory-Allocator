@@ -44,3 +44,4 @@ Use run.sh script and Driver.java to test the code. Sample input and correspondi
 2. Free address
 3. Defragment
 
+Currently, initialised to use AVL Tree as the datastructure to implement Dictionary. To change to BSTree or linked list, replace corresponding files with those in their folders and run.
