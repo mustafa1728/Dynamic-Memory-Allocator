@@ -32,3 +32,11 @@ Abstract datatype dictionary is used to implement allocate, free and defragment 
 ## Optimisations
 
 Starting from Linked Lists, the dictionary is further optimised using BSTrees and AVL trees. Further details regarding the runtime complexities of each implementation are discussed in their individual folders.
+
+## Instructions for use
+
+Use run.sh script and Driver.java to test the code. Sample input and corresponding output are provided for convenience. The first line has number of trials, with each trail having first size of memory, number of commands and then the actual commands, of the format: 
+1. Allocate block_size
+2. Free address
+3. Defragment
+
