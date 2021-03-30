@@ -2,7 +2,7 @@
 
 A java based project simulating a Dynamic Memory Allocator. Included allocate, free and de-fragment functions, modelling different processes involved in the actual allocator.
 
-Part of this was an assignment for the course COL106: Data Structures and Algorithms, first semester 20-21, under Prof. Rahul Garg.
+Part of this was an assignment for the course COL106: Data Structures and Algorithms, first semester 20-21 at IIT Delhi, under Prof. Rahul Garg.
 
 
 ## Introduction
