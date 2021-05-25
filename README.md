@@ -2,15 +2,15 @@
 
 A java based project simulating a Dynamic Memory Allocator. Included allocate, free and de-fragment functions, modelling different processes involved in the actual allocator.
 
-Part of this was an assignment for the course COL106: Data Structures and Algorithms, first semester 20-21 at IIT Delhi, under Prof. Rahul Garg.
+Part of this was an assignment for the course COL106: Data Structures and Algorithms, first semester 20-21 at IIT Delhi.
 
 
 ## Introduction
 The allocator will be having information about the memory spaces that would be currently occupied by other programs and the memory spaces that are currently available, so that whenever a program asks for memory only the memory block that is marked free (or currently available) will be given to that program. Now whenever a free memory block is given to a program then it is marked as occupied (or allocated) so other programs can not access it. Whenever the program finishes its execution, the concerned memory block should be made available again (or freed).
 
 The allocator decides the actual address each program will have based on the size of memory it requires. Two algorithms for finding the address are implemented here:
-1. First Fit: The first address having a memory block of size greater than or equal to required memory size is used
-2. Best Fit: The address having the smallest memory block of size just greater than or equal to required memory size is used.
+1. **First Fit**: The first address having a memory block of size greater than or equal to required memory size is used
+2. **Best Fit**: The address having the smallest memory block of size just greater than or equal to required memory size is used.
 
 A simple boolean is used to switch between these
 
@@ -41,9 +41,14 @@ Starting from Linked Lists, the dictionary is further optimised using BSTrees an
 
 ## Instructions for use
 
+Clone the repository and open a terminal inside it. Then run the following to compile all java files:
+~~~ 
+make all
+~~~
+
 Use run.sh script and Driver.java to test the code. Sample input and corresponding output are provided for convenience. The first line has number of trials, with each trail having first size of memory, number of commands and then the actual commands, of the format: 
-1. Allocate block_size
-2. Free address
+1. Allocate < block_size >
+2. Free < address >
 3. Defragment
 
 Currently, initialised to use AVL Tree as the datastructure to implement Dictionary. To change to BSTree or linked list, replace corresponding files with those in their folders and run.
